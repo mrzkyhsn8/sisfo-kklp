@@ -81,15 +81,9 @@
                                                       <button class="confirmation btn btn-danger btn-sm rounded-3 mt-1" type="button" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-trash"></i> Delete</button>
                                                     </li>
                                                     <li class="list-inline-item">
-                                                      <a target="_blank" href="<?php echo $data['file_name'] ?>" class="btn btn-warning btn-sm rounded-3 mt-1"><i class="fa fa-info"></i> Detail</a>
-                                                    </li>
-                                                    <li class="list-inline-item">
                                                       <a href="?page=peserta-kklp&id=<?php echo $data['id_kklp'] ?>" class="btn btn-secondary btn-sm rounded-3 mt-1"><i class="fa fa-user"></i> Peserta</a>
                                                     </li>
                                                   <?php  }elseif ($_SESSION['status'] = 'USER') { ?>
-                                                    <li class="list-inline-item">
-                                                      <a target="_blank" href="<?php echo $data['file_name'] ?>" class="btn btn-warning btn-sm rounded-3 mt-1"><i class="fa fa-info"></i> Detail</a>
-                                                    </li>
                                                     <li class="list-inline-item">
                                                       <a target="_blank" href="<?php echo $data['file_disposisi'] ?>" class="btn btn-primary btn-sm rounded-3 mt-1"><i class="fa fa-info"></i> Disposisi</a>
                                                     </li>
